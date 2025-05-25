@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://www.itl.cat/pngfile/big/30-303970_nature-wallpapers-nature-landscape.jpg');
+    /* background-image: url('nature 2.jpg'); */
+    background-size: auto;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100px;
+    /* overflow: hidden; */
+    transform: rotate(360deg);
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100px;
+    /* overflow: hidden; */
+    transform: rotate(180deg);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    /* background-color: #3498db; */
+    background-color: #e31b23;
+    border-radius: 50%;
+    position: relative;
+
+    /* border-radius: 0 0 100px 100px;
+    transform: rotate(90deg);
+    padding: 0;
+    margin: 0; */
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    /* background-color: #3498db; */
+    background-color: #e31b23;
+    border-radius: 50%;
+    position: relative;
+
+    /* border-radius: 0 0 100px 100px;
+    transform: rotate(-90deg);
+    padding: 0;
+    margin: 0; */
+}
+
+.circle span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: 0.8;
+    animation: pulseAnimate 4s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+.circle2 span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: 0.8;
+    animation: pulseAnimate2 4s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes pulseAnimate2 {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
