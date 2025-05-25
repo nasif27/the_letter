@@ -11,7 +11,7 @@ export default function Home() {
     const [modalShow, setModalShow] = useState(false);
     const [show, setShow] = useState(true);
     // const [audio] = useState(new Audio('./src/pages/Winter Sonata Piano 3.mp3'));
-    const [audio] = useState(new Audio('/public/Winter Sonata Piano 3.mp3'));
+    const [audio] = useState(new Audio('../public/Winter Sonata Piano 3.mp3'));
     const [isPlaying, setIsPlaying] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
 
