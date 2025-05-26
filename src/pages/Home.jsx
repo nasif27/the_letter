@@ -168,7 +168,7 @@ export default function Home() {
                     style={{
                         // width: '90%',
                         textAlign: 'justify', 
-                        color: 'yellow', 
+                        color: 'white', 
                         fontSize: '18px', 
                         fontFamily: 'sans-serif', 
                         WebkitTextStroke: '1px black'
