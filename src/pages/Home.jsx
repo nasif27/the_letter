@@ -171,7 +171,7 @@ export default function Home() {
                         color: 'white', 
                         fontSize: '20px', 
                         fontFamily: 'sans-serif', 
-                        WebkitTextStroke: '1px gray'
+                        WebkitTextStroke: '1px black'
                     }}
                 ></pre>
             </div>
