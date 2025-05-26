@@ -3,6 +3,7 @@ import { Button, Form, Modal, Offcanvas } from "react-bootstrap";
 import { useEffect, useState } from "react";
 // import Image from '../pages/nature 4.jpg';
 // import Image from '../../nature 4.jpg';
+import Song from '../../public/Winter Sonata Piano 3.mp3';
 
 export default function Home() {
     const Image = 'https://www.pexels.com/photo/lake-and-mountain-417074/';
@@ -11,7 +12,7 @@ export default function Home() {
     const [modalShow, setModalShow] = useState(false);
     const [show, setShow] = useState(true);
     // const [audio] = useState(new Audio('./src/pages/Winter Sonata Piano 3.mp3'));
-    const [audio] = useState(new Audio('../public/Winter Sonata Piano 3.mp3'));
+    const [audio] = useState(new Audio(Song));
     const [isPlaying, setIsPlaying] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
 
