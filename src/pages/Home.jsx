@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 import Song from '../../public/Winter Sonata Piano 3.mp3';
 
 export default function Home() {
-    const Image = 'https://www.pexels.com/photo/lake-and-mountain-417074/';
+    // const Image = 'https://www.pexels.com/photo/lake-and-mountain-417074/';
+    const Image = 'https://www.pexels.com/photo/clear-blue-shore-457881/';
     const pwd = import.meta.env.VITE_PWD;
     const [password, setPassword] = useState('');
     const [modalShow, setModalShow] = useState(false);
@@ -169,7 +170,7 @@ export default function Home() {
                         // width: '90%',
                         textAlign: 'justify', 
                         color: 'white', 
-                        fontSize: '18px', 
+                        fontSize: '19px', 
                         fontFamily: 'sans-serif', 
                         WebkitTextStroke: '1px black'
                     }}
