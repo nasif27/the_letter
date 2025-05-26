@@ -170,7 +170,7 @@ export default function Home() {
                         textAlign: 'justify', 
                         color: 'white', 
                         fontSize: '20px', 
-                        fontFamily: 'fantasy', 
+                        fontFamily: 'sans-serif', 
                         WebkitTextStroke: '1px gray'
                     }}
                 ></pre>
