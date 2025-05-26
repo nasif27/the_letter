@@ -7,7 +7,7 @@ import Song from '../../public/Winter Sonata Piano 3.mp3';
 
 export default function Home() {
     // const Image = 'https://www.pexels.com/photo/lake-and-mountain-417074/';
-    const Image = 'https://www.pexels.com/photo/clear-blue-shore-457881/';
+    // const Image = 'https://www.pexels.com/photo/clear-blue-shore-457881/';
     const pwd = import.meta.env.VITE_PWD;
     const [password, setPassword] = useState('');
     const [modalShow, setModalShow] = useState(false);
@@ -151,7 +151,7 @@ export default function Home() {
             </Modal>
             
             <div
-                style={{backgroundImage: Image, backgroundSize: 'auto'}}
+                // style={{backgroundImage: Image, backgroundSize: 'auto'}}
                 className={`mb-5 d-flex flex-column justify-content-center align-items-center mt-5 text-center text-dark`}
             >
                 <Button
